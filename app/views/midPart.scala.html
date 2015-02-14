@@ -1,0 +1,93 @@
+@* midPart Template File *@
+
+<html data-ng-app="MyApp">
+
+    <head>
+        <title></title>
+                
+		
+    </head>
+    <body class="container data-ng-controller= "MyController">
+    
+    	   
+ 
+  <div>
+  <table class="table table-striped">
+  <div class="panel">
+  <div class="panel-heading"> Employee</div>
+
+   
+						<tr>
+							<th><a data-ng-click="sort='name'" href="#">Name</a></th>
+							<th><a data-ng-click="sort='gender'"href="#">Gender</a></th>
+							
+							<th><a data-ng-click="sort='email'"href="#">Email</a></th>
+							<th><a data-ng-click="sort='phone'"href="#">Phone</a></th>
+							<th><a data-ng-click="sort='registered'"href="#">Date</a></th>
+						</tr>
+						<tr
+							data-ng-repeat="x in list">
+							<td>{{x.name}}</td>
+							<td>{{x.gender}}</td>
+							<td>{{x.email}}</td>
+							<td>{{x.phone}}</td>
+							<td>{{x.registered}}</td>
+
+						</tr>
+						<tr	data-ng-repeat="x in list">
+							<td>{{x.name}}</td>
+							<td>{{x.gender}}</td>
+							<td>{{x.email}}</td>
+							<td>{{x.phone}}</td>
+							<td>{{x.registered}}</td>
+
+						</tr>
+						
+						<tr	data-ng-repeat="x in list">
+							<td>{{x.name}}</td>
+							<td>{{x.gender}}</td>
+							<td>{{x.email}}</td>
+							<td>{{x.phone}}</td>
+							<td>{{x.registered}}</td>
+
+						</tr>
+
+						<tr	data-ng-repeat="x in list">
+							<td>{{x.name}}</td>
+							<td>{{x.gender}}</td>
+							<td>{{x.email}}</td>
+							<td>{{x.phone}}</td>
+							<td>{{x.registered}}</td>
+
+						</tr>
+
+						<tr	data-ng-repeat="x in list">
+							<td>{{x.name}}</td>
+							<td>{{x.gender}}</td>
+							<td>{{x.email}}</td>
+							<td>{{x.phone}}</td>
+							<td>{{x.registered}}</td>
+
+						</tr>
+						<tr	data-ng-repeat="x in list">
+							<td>{{x.name}}</td>
+							<td>{{x.gender}}</td>
+							<td>{{x.email}}</td>
+							<td>{{x.phone}}</td>
+							<td>{{x.registered}}</td>
+
+						</tr>
+						
+					
+					</table>	
+					  </div>
+</div>
+	    
+
+       
+       
+	  
+    </body>
+</html>
+ 
+
